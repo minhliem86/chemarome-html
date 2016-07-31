@@ -1,0 +1,171 @@
+@import url("../js/select/nice-select.css");
+/* line 1, E:/xampp/htdocs/chemarome-html/build/style.scss */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* line 5, E:/xampp/htdocs/chemarome-html/build/style.scss */
+ul {
+  list-style: none;
+  margin: 0; }
+
+/* line 6, E:/xampp/htdocs/chemarome-html/build/style.scss */
+h2, h3, h4, p {
+  margin: 0;
+  padding: 0; }
+
+/* line 7, E:/xampp/htdocs/chemarome-html/build/style.scss */
+a:hover {
+  text-decoration: none;
+  outline: none; }
+
+/* line 19, E:/xampp/htdocs/chemarome-html/build/style.scss */
+.page .header {
+  height: 200px;
+  padding: 0 15px;
+  background: url("../images/bg-header.jpg") no-repeat;
+  background-size: cover; }
+  @media screen and (min-width: 320px) {
+    /* line 19, E:/xampp/htdocs/chemarome-html/build/style.scss */
+    .page .header {
+      height: auto;
+      padding: 10px 15px; } }
+  /* line 29, E:/xampp/htdocs/chemarome-html/build/style.scss */
+  .page .header .social-controlbar {
+    padding-top: 15px; }
+    @media screen and (min-width: 320px) {
+      /* line 31, E:/xampp/htdocs/chemarome-html/build/style.scss */
+      .page .header .social-controlbar .wrap-social {
+        text-align: center;
+        margin-bottom: 10px; } }
+    @media screen and (min-width: 480px) {
+      /* line 31, E:/xampp/htdocs/chemarome-html/build/style.scss */
+      .page .header .social-controlbar .wrap-social {
+        text-align: left; } }
+    /* line 41, E:/xampp/htdocs/chemarome-html/build/style.scss */
+    .page .header .social-controlbar .wrap-social a.icon {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: rgba(235, 219, 229, 0.8);
+      position: relative;
+      text-align: center;
+      color: #861e7f;
+      margin-right: 5px; }
+      /* line 51, E:/xampp/htdocs/chemarome-html/build/style.scss */
+      .page .header .social-controlbar .wrap-social a.icon:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle; }
+      /* line 57, E:/xampp/htdocs/chemarome-html/build/style.scss */
+      .page .header .social-controlbar .wrap-social a.icon i {
+        vertical-align: middle; }
+    /* line 63, E:/xampp/htdocs/chemarome-html/build/style.scss */
+    .page .header .social-controlbar .wrap-formLanguage .nice-select {
+      float: right;
+      background: none;
+      color: #fefefe;
+      border: none;
+      font-size: 18px; }
+      @media screen and (min-width: 320px) {
+        /* line 63, E:/xampp/htdocs/chemarome-html/build/style.scss */
+        .page .header .social-controlbar .wrap-formLanguage .nice-select {
+          background: #861e7f; } }
+      @media screen and (min-width: 768px) {
+        /* line 63, E:/xampp/htdocs/chemarome-html/build/style.scss */
+        .page .header .social-controlbar .wrap-formLanguage .nice-select {
+          background: none; } }
+      /* line 76, E:/xampp/htdocs/chemarome-html/build/style.scss */
+      .page .header .social-controlbar .wrap-formLanguage .nice-select:after {
+        border-bottom-color: #fefefe;
+        border-right-color: #fefefe; }
+      /* line 80, E:/xampp/htdocs/chemarome-html/build/style.scss */
+      .page .header .social-controlbar .wrap-formLanguage .nice-select ul.list {
+        background: none;
+        box-shadow: none;
+        border-radius: 0; }
+        @media screen and (min-width: 320px) {
+          /* line 80, E:/xampp/htdocs/chemarome-html/build/style.scss */
+          .page .header .social-controlbar .wrap-formLanguage .nice-select ul.list {
+            background: #861e7f; } }
+        @media screen and (min-width: 768px) {
+          /* line 80, E:/xampp/htdocs/chemarome-html/build/style.scss */
+          .page .header .social-controlbar .wrap-formLanguage .nice-select ul.list {
+            background: none; } }
+        /* line 90, E:/xampp/htdocs/chemarome-html/build/style.scss */
+        .page .header .social-controlbar .wrap-formLanguage .nice-select ul.list li.option:hover, .page .header .social-controlbar .wrap-formLanguage .nice-select ul.list .option.focus, .page .header .social-controlbar .wrap-formLanguage .nice-select ul.list .option.selected.focus {
+          background: #861e7f; }
+  /* line 97, E:/xampp/htdocs/chemarome-html/build/style.scss */
+  .page .header .wrap-logo {
+    text-align: center;
+    position: relative; }
+    /* line 100, E:/xampp/htdocs/chemarome-html/build/style.scss */
+    .page .header .wrap-logo img {
+      display: inline-block; }
+    /* line 103, E:/xampp/htdocs/chemarome-html/build/style.scss */
+    .page .header .wrap-logo .sub-logo {
+      position: absolute;
+      left: 60%;
+      bottom: -50px;
+      font-size: 25px;
+      color: #fefefe; }
+      @media screen and (min-width: 320px) {
+        /* line 103, E:/xampp/htdocs/chemarome-html/build/style.scss */
+        .page .header .wrap-logo .sub-logo {
+          position: static;
+          bottom: inherit;
+          left: inherit; } }
+
+/* line 117, E:/xampp/htdocs/chemarome-html/build/style.scss */
+.page .middle {
+  padding: 15px 0;
+  background: #ded5d8; }
+  /* line 121, E:/xampp/htdocs/chemarome-html/build/style.scss */
+  .page .middle .main-content h2.title {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 600px; }
+  /* line 126, E:/xampp/htdocs/chemarome-html/build/style.scss */
+  .page .middle .main-content p {
+    font-size: 14px;
+    margin-bottom: 10px; }
+  /* line 130, E:/xampp/htdocs/chemarome-html/build/style.scss */
+  .page .middle .main-content ul {
+    padding-left: 15px;
+    list-style-type: disc; }
+  /* line 135, E:/xampp/htdocs/chemarome-html/build/style.scss */
+  .page .middle .wrap-form {
+    margin-top: 30px;
+    background: rgba(243, 243, 243, 0.7);
+    padding: 8px; }
+    /* line 139, E:/xampp/htdocs/chemarome-html/build/style.scss */
+    .page .middle .wrap-form h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #861e7f;
+      font-weight: 600; }
+    /* line 146, E:/xampp/htdocs/chemarome-html/build/style.scss */
+    .page .middle .wrap-form .formRegister div.form-group {
+      margin-bottom: 8px; }
+      /* line 148, E:/xampp/htdocs/chemarome-html/build/style.scss */
+      .page .middle .wrap-form .formRegister div.form-group input, .page .middle .wrap-form .formRegister div.form-group textarea {
+        border: 1px solid #861e7f;
+        background: rgba(255, 255, 255, 0.7); }
+      /* line 152, E:/xampp/htdocs/chemarome-html/build/style.scss */
+      .page .middle .wrap-form .formRegister div.form-group input[type="submit"] {
+        padding: 5px 25px;
+        border-radius: 30px;
+        color: #861e7f;
+        font-weight: 600; }
+      /* line 158, E:/xampp/htdocs/chemarome-html/build/style.scss */
+      .page .middle .wrap-form .formRegister div.form-group ::-webkit-input-placeholder {
+        color: #861e7f; }
+      /* line 161, E:/xampp/htdocs/chemarome-html/build/style.scss */
+      .page .middle .wrap-form .formRegister div.form-group ::-moz-placeholder {
+        /* Firefox 19+ */
+        color: #861e7f; }
+      /* line 165, E:/xampp/htdocs/chemarome-html/build/style.scss */
+      .page .middle .wrap-form .formRegister div.form-group :-ms-input-placeholder {
+        color: #861e7f; }

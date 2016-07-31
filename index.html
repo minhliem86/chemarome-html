@@ -2,6 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
 	<title>Chemarome</title>
 </head>
 <body>
@@ -10,7 +16,18 @@
 			<div class="social-controlbar">
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-sm-6">
+						<div class="col-sm-6 col-sm-push-6">
+							<div class="wrap-formLanguage clearfix">
+								<form action="" method="" class="formLanguage">
+									<select name="language">
+										<option value="ru">Russia</option>
+										<option value="ru">Franch</option>
+										<option value="ru">Bahasha</option>
+									</select>
+								</form>
+							</div>
+						</div>
+						<div class="col-sm-6 col-sm-pull-6">
 							<div class="wrap-social">
 								<a href="#" class="icon ic-fa"><i class="fa fa-facebook"></i></a>
 								<a href="#" class="icon ic-insta"><i class="fa fa-instagram"></i></a>
@@ -18,23 +35,17 @@
 								<a href="#" class="icon ic-in"><i class="fa fa-linkedin"></i></a>
 							</div>
 						</div>
-						<div class="col-sm-6">
-							<form action="" method="" class="formLanguage">
-								<select name="language" id="">
-									<option value="ru">Russia</option>
-									<option value="ru">Franch</option>
-									<option value="ru">Bahasha</option>
-								</select>
-							</form>
-						</div>
+						
 					</div>
 				</div>
 			</div>
 			<!-- END SOCIAL -->
 
 			<div class="wrap-logo">
-				<a href="#"><img src="images/logo.png" class="img-responsive" alt="Chemarome"></a>
-				<p class="sub-logo">challenging your senses</p>
+				<a href="#">
+					<img src="images/logo.png" class="img-responsive" alt="Chemarome">
+					<p class="sub-logo">challenging your senses</p>
+				</a>
 			</div>
 
 			<!-- END WRAP-LOGO -->
@@ -43,7 +54,64 @@
 
 		<!-- END HEADER -->
 
-		div.
+		<div class="middle">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-7 col-lg-8">
+						<div class="main-content">
+							<h2 class="title">Chemarome & NEO Chemical</h2>
+							<p>Chemarome & NEO Chemical partnership offers the best Fragrance and Scent development support for our Russian clientele. </p>
+							<p>Specialized in the field of olfactive beauty, our portfolio ranges from:</p>
+							<p>
+								<ul>
+									<li>New fragrances development. Chemarome stands as a worldwide creative leader</li>
+									<li>Fine perfumes to body care products (fragrances for shower gel, shampoo, deodorant and cream).</li>
+									<li>Home fragrances from household applications (detergents, home cleaners) </li>
+									<li>Interior perfumes (air fresheners, candles, bakhoor) </li>
+									<li>Industrial scents (paints, glue, lubricants,...).</li>
+								</ul>
+							</p>
+							<p><i>For further information please drop us an email and our friendly staff based at Moscow will approach you shortly.</i></p>
+						</div><!-- End main content -->
+					</div>
+					<div class="col-md-5 col-lg-4">
+						<div class="wrap-form">
+							<form action="" method="" class="formRegister">
+								<h2>Chemarome</h2>
+								<div class="form-group">
+									<input type="text" placeholder="Username" class="form-control">
+								</div>
+								<div class="form-group">
+									<input type="text" placeholder="Phone" class="form-control">
+								</div>
+								<div class="form-group">
+									<input type="text" placeholder="Email" class="form-control">
+								</div>
+								<div class="form-group">
+									<input type="text" placeholder="Address" class="form-control">
+								</div>
+								<div class="form-group">
+									<textarea name="messages" rows="5" class="form-control"></textarea>
+								</div>
+								<div class="form-group">
+									<input type="submit" class="btn-submit">
+								</div>
+							</form>
+						</div><!-- End wrap-form -->
+					</div>
+				</div>
+			</div>
+		</div>	<!-- end middle-->
 	</div>
+
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<script src="js/select/jquery.nice-select.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$('.formLanguage select').niceSelect();
+	})
+	</script>
 </body>
 </html>
